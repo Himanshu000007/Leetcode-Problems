@@ -6,6 +6,7 @@ class Solution {
             sum += nums[i];
             avg = sum/k;
         }
+        // leet added
         double max = avg;
         for(int i=k;i<nums.length;i++){
             sum -= nums[i-k];
